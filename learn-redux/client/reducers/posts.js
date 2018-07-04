@@ -4,7 +4,7 @@
 //2. copy of current state
 
 const posts = (state = [], action) => {
-	console.log(state,action);
+	console.log(state, action);
 	return state;
 }
 
