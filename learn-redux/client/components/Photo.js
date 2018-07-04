@@ -22,7 +22,7 @@ class Photo extends Component {
 
 					<figcaption>
 						<p>{post.caption}</p>
-							<div className="control-buttons">
+							<div onClick={this.props.increment.bind(null, i)} className="control-buttons">
 								<button className="likes">&hearts; {post.likes}</button>
 								<Link className="button" to={`/view/${post.code}`}>
 									<span className="speech-bubble"></span>
